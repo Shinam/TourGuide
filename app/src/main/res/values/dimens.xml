@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tabTextSize">11sp</dimen>
+    <dimen name="listItemHeight">90dp</dimen>
+    <dimen name="listImageWidth">120dp</dimen>
+    <dimen name="listMarginLeft">24dp</dimen>
+    <dimen name="bigTextSize">18sp</dimen>
+    <dimen name="detailedTextPadding">32dp</dimen>
+    <dimen name="detailedImageWidth">240dp</dimen>
+    <dimen name="detailedImageHeight">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

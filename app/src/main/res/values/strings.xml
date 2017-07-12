@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="place">Place</string>
+    <string name="eat">Eat</string>
+    <string name="drink">Coffee</string>
+    <string name="museum">Museum</string>
+
+    <string name="placeName1">placeName1</string>
+    <string name="placeAddress1">placeAddress1</string>
+    <string name="placeDesc1">placeDesc1</string>
+    <string name="placeUrl1">http://www.google.fr</string>
+    <string name="placeLoc1">45, 90</string>
+
+    <string name="placeName2">placeName2</string>
+    <string name="placeAddress2">placeAddress2</string>
+    <string name="placeDesc2">placeDesc2</string>
+    <string name="placeUrl2">http://www.google.fr</string>
+    <string name="placeLoc2">45, 90</string>
+
+    <string name="placeName3">placeName3</string>
+    <string name="placeAddress3">placeAddress3</string>
+    <string name="placeDesc3">placeDesc3</string>
+    <string name="placeUrl3">http://www.google.fr</string>
+    <string name="placeLoc3">45, 90</string>
+
+    <string name="eatName1">eatName1</string>
+    <string name="eatAddress1">eatAddress1</string>
+    <string name="eatDesc1">eatDesc1</string>
+    <string name="eatUrl1">http://www.google.fr</string>
+    <string name="eatLoc1">45, 90</string>
+
+    <string name="eatName2">eatName2</string>
+    <string name="eatAddress2">eatAddress2</string>
+    <string name="eatDesc2">eatDesc2</string>
+    <string name="eatUrl2">http://www.google.fr</string>
+    <string name="eatLoc2">45, 90</string>
+
+    <string name="eatName3">eatName3</string>
+    <string name="eatAddress3">eatAddress3</string>
+    <string name="eatDesc3">eatDesc3</string>
+    <string name="eatUrl3">http://www.google.fr</string>
+    <string name="eatLoc3">45, 90</string>
+
+    <string name="drinkName1">drinkName1</string>
+    <string name="drinkAddress1">drinkAddress1</string>
+    <string name="drinkDesc1">drinkDesc1</string>
+    <string name="drinkUrl1">http://www.google.fr</string>
+    <string name="drinkLoc1">45, 90</string>
+
+    <string name="drinkName2">drinkName2</string>
+    <string name="drinkAddress2">drinkAddress2</string>
+    <string name="drinkDesc2">drinkDesc2</string>
+    <string name="drinkUrl2">http://www.google.fr</string>
+    <string name="drinkLoc2">45, 90</string>
+
+    <string name="drinkName3">drinkName3</string>
+    <string name="drinkAddress3">drinkAddress3</string>
+    <string name="drinkDesc3">drinkDesc3</string>
+    <string name="drinkUrl3">http://www.google.fr</string>
+    <string name="drinkLoc3">45, 90</string>
+
+    <string name="museumName1">museumName2</string>
+    <string name="museumAddress1">museumAddress2</string>
+    <string name="museumDesc1">museumDesc2</string>
+    <string name="museumUrl1">http://www.google.fr</string>
+    <string name="museumLoc1">45, 90</string>
+
+    <string name="museumName2">museumName3</string>
+    <string name="museumAddress2">museumAddress3</string>
+    <string name="museumDesc2">museumDesc3</string>
+    <string name="museumUrl2">http://www.google.fr</string>
+    <string name="museumLoc2">45, 90</string>
+
+    <string name="museumName3">museumName3</string>
+    <string name="museumAddress3">museumAddress3</string>
+    <string name="museumDesc3">museumDesc3</string>
+    <string name="museumUrl3">http://www.google.fr</string>
+    <string name="museumLoc3">45, 90</string>
+
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="desc">Description</string>
+    <string name="image">Image</string>
+    <string name="site">Site</string>
+    <string name="location">Location</string>
+
+    <string name="history">History</string>
+    <string name="more">More info</string>
+    <string name="webPage">WebPage</string>
+    <string name="map">Map</string>
+    <string name="title_activity_place_details">PlaceDetails</string>
+    <string name="title_activity_place_details2">PlaceDetails2</string>
+
+
+</resources>

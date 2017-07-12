@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguide.PlaceDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/detailedTextPadding">
+
+        <ImageView
+            android:id="@+id/detailed_image"
+            style="@style/ImageStyle"
+            android:layout_width="@dimen/detailedImageWidth"
+            android:layout_height="@dimen/detailedImageHeight"
+            android:layout_gravity="center_horizontal"
+            tools:src="@drawable/duomo" />
+
+        <TextView
+            android:id="@+id/detailed_name"
+            style="@style/BigTextStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/listMarginLeft"
+            android:textAlignment="center"
+            tools:text="@string/placeName1" />
+
+        <TextView
+            android:id="@+id/detailed_address"
+            style="@style/DetailedTextStyle"
+            android:layout_marginTop="0dp"
+            tools:text="@string/placeAddress1" />
+
+        <TextView
+            style="@style/DetailedTextStyle"
+            android:text="@string/history"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailed_desc"
+            style="@style/DetailedTextStyle"
+            tools:text="@string/placeDesc1" />
+
+        <TextView
+            style="@style/DetailedTextStyle"
+            android:text="@string/more"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/listMarginLeft">
+
+            <LinearLayout
+                android:id="@+id/link_webpage"
+                style="@style/DetailedIconStyle">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_link"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/webPage"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/link_map"
+                style="@style/DetailedIconStyle">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_map"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
