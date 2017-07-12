@@ -1,4 +1,8 @@
 <resources>
+
+
+    <!-- Sorry to don't use real values, I don't have time if I want finish all projects before july 24-->
+
     <string name="app_name">TourGuide</string>
     <string name="place">Place</string>
     <string name="eat">Eat</string>
