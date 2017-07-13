@@ -25,8 +25,8 @@ public class MuseumFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<Place>();
 
         places.add(new Place(getString(R.string.museumName1), getString(R.string.museumAddress1), getString(R.string.museumDesc1), R.drawable.duomo, getString(R.string.museumUrl1), getString(R.string.museumLoc1)));
-        places.add(new Place(getString(R.string.museumName2), getString(R.string.museumAddress2), getString(R.string.museumDesc2), R.drawable.galleria, getString(R.string.museumUrl2), getString(R.string.museumLoc2)));
-        places.add(new Place(getString(R.string.museumName3), getString(R.string.museumAddress3), getString(R.string.museumDesc3), R.drawable.grazie, getString(R.string.museumUrl3), getString(R.string.museumLoc3)));
+        places.add(new Place(getString(R.string.museumName2), getString(R.string.museumAddress2), getString(R.string.museumDesc2), R.drawable.grazie, getString(R.string.museumUrl2), getString(R.string.museumLoc2)));
+        places.add(new Place(getString(R.string.museumName3), getString(R.string.museumAddress3), getString(R.string.museumDesc3), R.drawable.galleria, getString(R.string.museumUrl3), getString(R.string.museumLoc3)));
 
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

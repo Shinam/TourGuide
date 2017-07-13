@@ -23,12 +23,14 @@ public class PlaceDetailsActivity extends AppCompatActivity {
 
         //Get the properties
         Bundle b = getIntent().getExtras();
-        String placeName = b.getString(getString(R.string.name));
-        String placeAddress = b.getString(getString(R.string.address));
-        String placeDescription = b.getString(getString(R.string.desc));
-        int placeImage = b.getInt(getString(R.string.image));
-        final String placeSite = b.getString(getString(R.string.site));
-        final String placeLocation = b.getString(getString(R.string.location));
+        Place object = b.getParcelable("myDataKey");
+
+        String placeName = object.getmPlaceName();
+        String placeAddress = object.getmPlaceAddress();
+        String placeDescription = object.getmPlaceDescription();
+        int placeImage = object.getmPlaceImageResourceID();
+        final String placeSite = object.getmPlaceSiteURL();
+        final String placeLocation = object.getmPlaceLocation();
 
         //Set screen title
         this.setTitle(placeName);

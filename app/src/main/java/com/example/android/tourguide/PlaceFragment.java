@@ -25,8 +25,8 @@ public class PlaceFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<Place>();
 
         places.add(new Place(getString(R.string.placeName1), getString(R.string.placeAddress1), getString(R.string.placeDesc1), R.drawable.duomo, getString(R.string.placeUrl1), getString(R.string.placeLoc1)));
-        places.add(new Place(getString(R.string.placeName2), getString(R.string.placeAddress2), getString(R.string.placeDesc2), R.drawable.galleria, getString(R.string.placeUrl2), getString(R.string.placeLoc2)));
-        places.add(new Place(getString(R.string.placeName3), getString(R.string.placeAddress3), getString(R.string.placeDesc3), R.drawable.grazie, getString(R.string.placeUrl3), getString(R.string.placeLoc3)));
+        places.add(new Place(getString(R.string.placeName2), getString(R.string.placeAddress2), getString(R.string.placeDesc2), R.drawable.grazie, getString(R.string.placeUrl2), getString(R.string.placeLoc2)));
+        places.add(new Place(getString(R.string.placeName3), getString(R.string.placeAddress3), getString(R.string.placeDesc3), R.drawable.galleria, getString(R.string.placeUrl3), getString(R.string.placeLoc3)));
 
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
